@@ -14,7 +14,6 @@ for(var i=0; i < 5 ;i++){
         numeroEntrada = parseInt(Math.random()*7);
     } 
     listaNumerosEntrada.push(numeroEntrada);
-    
     numeroSaida=numeroLimite-numeroEntrada;
     listaNumeroSaida.push(numeroSaida);
 }
